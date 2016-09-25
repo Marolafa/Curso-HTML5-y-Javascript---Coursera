@@ -1,0 +1,74 @@
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: 'Lobster', cursive;
+    font-size: 120%;
+}
+h1 {
+  margin: 30px 15px 15px;
+  text-align: center;
+}
+span {
+  border: 1px solid black;
+  background-color: #ffffff;
+  width: 40%;
+  color: Grey;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.row {
+  margin: auto;
+  width: 100%;
+  padding: 1%;
+}
+.row div {
+  font-family: "Arial";
+  padding: 60px 15px 15px;
+  position: relative;
+  margin: 1%;
+  float: left;
+}
+.menu1{
+  background: #CDDC39;
+}
+.menu2{
+  background: #E91E63;
+}
+.menu3{
+  background: #9C27B0;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 31.33%;
+  }
+ 
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .col-md-6 {
+    width: 48%;
+  }
+
+  .col-md-12 {
+    width: 98%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .row div {
+    margin: 2% !important;
+  }
+}
