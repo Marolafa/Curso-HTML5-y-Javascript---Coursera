@@ -31,6 +31,7 @@ span {
   padding: 1%;
 }
 .row div {
+  border: 1px solid #000000;
   font-family: "Arial";
   padding: 60px 15px 15px;
   position: relative;
