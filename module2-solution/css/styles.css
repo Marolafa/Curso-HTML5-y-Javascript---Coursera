@@ -15,9 +15,8 @@ h1 {
 }
 span {
   border: 1px solid black;
-  background-color: #ffffff;
   width: 40%;
-  color: Grey;
+  color: #ffffff;
   position: absolute;
   top: 0;
   right: 0;
