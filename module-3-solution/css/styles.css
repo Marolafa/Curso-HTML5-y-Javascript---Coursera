@@ -1,74 +1,57 @@
+
+/********** Base styles **********/
+* {
+  	box-sizing: border-box;
+  	margin: 0;
+  	padding: 0;
+}
 body{
-    background: #FAFAFA;
-    color: #212121;
-    margin-bottom: 30px;
-    margin-top: 50px;
-} 
-
-.block-center {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 100%;
+    font-family: Arial;
+    font-size: 120%;
+	padding-top: 70px;
 }
-
-.bg-info {
-    min-height: 734px;
-}
-
-h1,h3{
-    font-family: 'Fjalla One', sans-serif;
-}
-
-p{
-  font-family: 'Lobster', cursive;  
-}
-
-h3{
-    color: #795548;
-}
-
-.navbar-default{
-    background: #5D4037;
-    border-radius: 0;
-}
-
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover,a.navbar-brand{
-    color: #fff !important;
-}
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    /*background-color: white;*/
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff !important;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: white !important;
-}
-
-.navbar-default .navbar-nav>.active>a{
-    background-color: transparent !important;
-}
-
-.navbar-default .navbar-nav>.active>a:hover {
-    color: #333 !important;
-    background-color: transparent !important;
+h1 {
+	font-family: 'Lobster', cursive;
+	margin: 30px 15px 15px;
 }
 
 
-.box a{
-    color:#448AFF;
+/********** Navbar styles **********/
+.navbar-default {
+	background-color: #FF9900;
+}
+.navbar-default .navbar-brand{
+	background-color: #C13100;
+	color: #ffffff;
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #000;
 }
 
-.box p{
-    letter-spacing: 1px;
+.navbar-default .navbar-nav>li>a{
+	color: #000;
+	font-size: 1.5em;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #C13100;
+	font-size: 1.6em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #fff;
 }
 
-@media (max-width: 1199px) {
-     .box{
-         margin-bottom: 30px;
-     }
- }
+
+/********** Main Content styles **********/
+.box-content-product{
+	border: 1px dotted #C13100;
+	padding: 10px;
+	margin: 10px 0;
+}
+
